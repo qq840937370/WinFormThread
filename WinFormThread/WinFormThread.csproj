@@ -53,6 +53,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThreadHelper\ConsoleThread.cs" />
+    <Compile Include="ThreadHelper\ConsoleThreadAttribute.cs" />
+    <Compile Include="ThreadHelper\ConsoleThreadSafe.cs" />
+    <Compile Include="ThreadHelper\ConsoleThreadUnsafe.cs" />
+    <Compile Include="ThreadHelper\ConsoleThread_Foreground_Background.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
